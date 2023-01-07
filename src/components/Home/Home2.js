@@ -36,7 +36,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> or <b className="purple">Spring Boot</b>
               {" "} and Modern Libraries and Frameworks
-              &nbsp; like
+              &nbsp;like
               <i>
                 <b className="purple"> React.js and Angular</b>
               </i>
