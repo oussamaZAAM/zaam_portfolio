@@ -4,6 +4,7 @@ import {
   DiJavascript1,
   DiPython,
   DiJava,
+  DiAndroid,
 } from "react-icons/di";
 import {
   SiTypescript
@@ -23,6 +24,9 @@ function Languages() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAndroid />
       </Col>
     </Row>
   );
