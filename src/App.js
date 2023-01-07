@@ -6,6 +6,9 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
+
+import { initializeApp } from "firebase/app";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -18,6 +21,18 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCdw_atfbGEhQta6kGR0N6oVperaLfX2Ps",
+    authDomain: "zaam-portfolio.firebaseapp.com",
+    projectId: "zaam-portfolio",
+    storageBucket: "zaam-portfolio.appspot.com",
+    messagingSenderId: "552793354282",
+    appId: "1:552793354282:web:e7aa53f661fcaa518ad353"
+  };
+  // Initialize Firebase
+const app = initializeApp(firebaseConfig);
+  
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
