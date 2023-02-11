@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import bepper from "../../Assets/Projects/bepper.png";
 import qhse from "../../Assets/Projects/qhse.png";
 import rooms from "../../Assets/Projects/rooms.png";
-import tunify from "../../Assets/Projects/tunify.png";
+import nutrilab from "../../Assets/Projects/nutrilab.png";
 import royalBooks from "../../Assets/Projects/royalBooks.png";
 
 function Projects() {
@@ -22,12 +22,12 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={tunify}
+              imgPath={nutrilab}
               isBlog={false}
-              title="Tunify"
-              description="Small Application for Music Streaming using Spotify API."
-              ghLink="https://github.com/oussamaZAAM/tunify.git"
-              demoLink="https://tunify.com"
+              title="NutriLab"
+              description="Application that helps you Balance your Food based on your sex, age, body measurements and your daily activity. This App will give you as well the ability to customize your food accordingly. Built with NextJS and TailwindCSS"
+              ghLink=""
+              demoLink="https://nutrilab.vercel.app"
             />
           </Col>
 
@@ -38,7 +38,7 @@ function Projects() {
               title="Bepper"
               description="Personal Project for a Diets & Fitness Application, it calculates the calories of each one and proposes a suitable Diet based on the calories. Built with MERN Stack."
               ghLink="https://github.com/oussamaZAAM/bepper.git"
-              demoLink="https://bepper.com"
+              demoLink="https://bepper.cyclic.app"
             />
           </Col>
 
@@ -47,7 +47,7 @@ function Projects() {
               imgPath={rooms}
               isBlog={false}
               title="Rooms"
-              description="Social Network Application with many functionalities: Chat, Posting, creating Rooms. Using MERN Stack and Web Sockets"
+              description="Social Network Application with many functionalities: Chat, Posting, creating Rooms. Using MERN Stack and Web Socket"
               ghLink="https://github.com/oussamaZAAM/Room.git"
               demoLink="https://pfa-rooms.herokuapp.com"              
             />
@@ -71,7 +71,7 @@ function Projects() {
               title="Royal Books"
               description="Application for an online Book Store built with Vanilla JS."
               ghLink="https://github.com/oussamaZAAM/RoyalBooks.git"
-              demoLink="https://royal-books.com"
+              demoLink=""
             />
           </Col>
         </Row>
