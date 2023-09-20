@@ -1,58 +1,89 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiAngularSimple,
   DiDocker,
-  DiMysql,
-  DiPostgresql
+  DiDjango
 } from "react-icons/di";
 import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
   SiSpringboot,
-  SiMongodb,
   SiKubernetes,
-  SiMaterialui
+  SiNextdotjs,
+  SiLaravel,
+  SiTravisci,
+  SiGithubactions,
+  SiHelm,
+  SiOctopusdeploy,
 } from "react-icons/si";
+
+import {
+  IoLogoGitlab
+} from "react-icons/io5";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiAngularSimple />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiSpringboot />
+        <p style={{fontSize: "14px"}}>Spring Boot</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
+        <p style={{fontSize: "14px"}}>Django</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSpringboot />
+        <DiDjango />
+        <p style={{fontSize: "14px"}}>Node.js</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiNextdotjs />
+        <p style={{fontSize: "14px"}}>Next.js</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <DiReact />
+        <p style={{fontSize: "14px"}}>React.js</p>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiDocker />
+        <p style={{fontSize: "14px"}}>Docker</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiKubernetes />
+        <p style={{fontSize: "14px"}}>Kubernetes</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHelm />
+        <p style={{fontSize: "14px"}}>Helm</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOctopusdeploy />
+        <p style={{fontSize: "14px"}}>ArgoCD</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <IoLogoGitlab />
+        <p style={{fontSize: "14px"}}>GitLab</p>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithubactions />
+        <p style={{fontSize: "14px"}}>Github Actions</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTravisci />
+        <p style={{fontSize: "14px"}}>TravisCI</p>
+      </Col>
+
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+        <p style={{fontSize: "14px"}}>Laravel</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
+        <p style={{fontSize: "14px"}}>Angular.js</p>
       </Col>
     </Row>
   );

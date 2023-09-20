@@ -7,6 +7,7 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Languages from "./Languages";
+import Databases from "./Databases";
 
 function About() {
   return (
@@ -51,6 +52,12 @@ function About() {
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
+
+        <h1 className="project-heading">
+          <strong className="purple">Databases</strong>
+        </h1>
+
+        <Databases />
 
         <Github />
       </Container>
