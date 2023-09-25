@@ -98,7 +98,7 @@ function Projects() {
               isBlog={false}
               title="NutriLab"
               description="Application that helps you Balance your Food based on your sex, age, body measurements and your daily activity. This App will give you as well the ability to customize your food accordingly. Built with NextJS and TailwindCSS"
-              ghLink=""
+              ghLink="https://github.com/oussamaZAAM/NutriLab.git"
               demoLink="https://nutrilab.vercel.app"
             />
           </Col>
