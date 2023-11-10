@@ -21,7 +21,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href="https://github.com/oussamaZAAM/zaam_portfolio/blob/4a43dbc3f6c2ffa41f3b76e49bce5837ffe95a37/src/Assets/CV.pdf"
+            href="https://zaam.vercel.app/CV.pdf"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -31,11 +31,8 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          {/* <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document> */}
-          <Document file="https://zaam.vercel.app/CV.pdf" onLoadSuccess={onDocumentLoadSuccess}>
-            <Page pageNumber={pageNumber} />
+          <Document file="https://zaam.vercel.app/CV.pdf">
+            <Page pageNumber={1} />
           </Document>
           <p>
             Page {pageNumber} of {numPages}
