@@ -16,6 +16,7 @@ import {
   SiGithubactions,
   SiHelm,
   SiOctopusdeploy,
+  SiIstio
 } from "react-icons/si";
 
 import {
