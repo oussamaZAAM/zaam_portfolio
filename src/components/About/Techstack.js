@@ -31,11 +31,11 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
-        <p style={{fontSize: "14px"}}>Django</p>
+        <p style={{fontSize: "14px"}}>Node.js</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDjango />
-        <p style={{fontSize: "14px"}}>Node.js</p>
+        <p style={{fontSize: "14px"}}>Django</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
@@ -61,6 +61,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiOctopusdeploy />
         <p style={{fontSize: "14px"}}>ArgoCD</p>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiIstio />
+        <p style={{fontSize: "14px"}}>Istio</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <IoLogoGitlab />

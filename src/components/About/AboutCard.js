@@ -19,10 +19,10 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Japanese Culture ( Anime - Manga - Visual Novels )
+              <ImPointRight /> Japanese Culture
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Designing
             </li>
             <li className="about-activity">
               <ImPointRight /> Reading 
