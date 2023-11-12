@@ -23,13 +23,13 @@ function Home2() {
               <br />
               <br />I am fluent in some languages like
               <i>
-                <b className="purple"> Typescript, Python, PHP and Java. </b>
+                <b className="purple"> Java</b>, <b className="purple">Javascript/Typescript</b> and <b className="purple">Python</b>.
               </i>
               <br />
               <br />
               My field of Interest's are 
               <i>
-                Delivering Softwares using the best practices of <b className="purple">DevOps </b>
+                Delivering Softwares using the best practices of <b className="purple">DevOps </b> using <b className="purple">Gitlab</b> and <b className="purple">Kubernetes </b> 
               </i>
               as well as building new
               <i>
@@ -73,34 +73,14 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/oussama-zaam-636750231/"
+                  href="https://www.linkedin.com/in/oussamaZAAM/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/faithfu_li/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
                 </a>
               </li>
             </ul>

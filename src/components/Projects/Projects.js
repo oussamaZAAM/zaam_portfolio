@@ -32,7 +32,7 @@ function Projects() {
               isBlog={false}
               title="YouScout - Backend"
               description="The backend following a Microservices architecture. Built with Spring, and using Maven, gitLab, Kubernetes for CI/CD."
-              ghLink="https://gitlab.com/Hamdane10/you-scout.git"
+              ghLink="https://github.com/oussamaZAAM/YouScout.git"
               demoLink="https://drive.google.com/file/d/1Pq9CvJ9vC0X-0-u3IC-8oGjog4Yd-tSx/view?usp=sharing"
             />
           </Col>
